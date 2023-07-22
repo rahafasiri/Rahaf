@@ -4,7 +4,7 @@
 ![excution commands](https://github.com/rahafasiri/Rahaf/assets/139389205/6231665f-0df9-4b27-ab63-4b164d5cd8f4)
 ![excution commands 2](https://github.com/rahafasiri/Rahaf/assets/139389205/d486891a-cf1c-47ef-8265-5adfe12eca6c)
 
-These commands are used to install and configure ROS (Robot Operating System) and then create a workspace to work on a specific ROS package called "arduino_robot_arm". Here is a brief explanation for each command:
+### These commands are used to install and configure ROS (Robot Operating System) and then create a workspace to work on a specific ROS package called "arduino_robot_arm". Here is a brief explanation for each command:
 
 1. `sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'`: This command adds the ROS repository to the system's package manager sources list.
 
@@ -61,5 +61,5 @@ These commands are used to install and configure ROS (Robot Operating System) an
 27. `source ~/.bashrc`: This command reloads the bashrc file to activate the changes made in step 25.
 
 28. `roslaunch robot_arm_pkg check_motors.launch`: This command launches the check_motors.launch file, which checks the motors of the robot arm.
-### Arm implementation on the emulator
+#### Arm implementation on the emulator
 ![صورة الذراع ](https://github.com/rahafasiri/Rahaf/assets/139389205/8abfa470-3bd7-457a-add5-6b110746eea9)
